@@ -13,7 +13,7 @@ def get_info():
     current_day = datetime.datetime.now().strftime('%A')
 
     #getting the utc time
-    utc_time = datetime.datetime.utcnow().strftime("%Y-%m-%dT%H:%M:%SZ")
+    utc_time = datetime.datetime.now().strftime("%Y-%m-%dT%H:%M:%SZ")
 
     github_file_url = "https://github.com/Rolex46/endpoint/blob/master/app.py"
     github_repo_url = "https://github.com/Rolex46/endpoint"
